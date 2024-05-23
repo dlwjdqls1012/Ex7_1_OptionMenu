@@ -20,6 +20,7 @@
             android:text="회전각도 입력: "/>
         <EditText
             android:layout_width="match_parent"
+            android:inputType="number"
             android:layout_height="wrap_content"
             android:id="@+id/editDegree"/>
     </LinearLayout>
@@ -30,6 +31,7 @@
         android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/imgv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/img1"
